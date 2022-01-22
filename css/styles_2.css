@@ -1,0 +1,65 @@
+body {
+  margin: 10px;
+}
+
+article p:first-of-type {
+  font-size: 140%;
+  font-style: italic;
+}
+
+article p:last-child {
+  font-weight: bold;
+}
+
+ul li:nth-child(odd) {
+  color: deeppink;
+}
+
+a:visited,
+a:link {
+  color: dodgerblue;
+}
+
+a:hover,
+a:focus {
+  color: deeppink;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+p::selection {
+  background-color: pink;
+}
+
+p::before {
+  content: "...";
+  display: block;
+  height: 50px;
+}
+
+p::after {
+  content: "AAA";
+  display: block;
+}
+
+h1 {
+  color: deepskyblue;
+}
+
+.highlight {
+  color: deeppink;
+}
+
+#products {
+  color: fuchsia;
+}
+
+h1#products {
+  color: dodgerblue;
+}
+
+.featured #products {
+  color: green;
+}
